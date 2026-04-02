@@ -77,7 +77,6 @@ userRoute.put("/articles", verifyToken("USER"), async (req, res) => {
 //next() ---> next middleware
 //next(err) ---> error handling middleware
 
-export default router;
 
 
 

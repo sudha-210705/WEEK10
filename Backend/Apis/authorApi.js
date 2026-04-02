@@ -126,7 +126,6 @@ authorRoute.patch("/articles/:id/status", verifyToken("AUTHOR"), async (req, res
   });
 });
 
-export default router;
 
 
 

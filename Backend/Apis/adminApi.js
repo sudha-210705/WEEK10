@@ -14,4 +14,4 @@ export const  adminRoute=exp.Router()
 //     email:"admin@mail.com",
 //     password:"$2a$12$zBYi4VNPbfV1qhe78SnujeiDkZ1.RkYDO6kTLx4MAj3Sshbw/cr5u"}
 // )
-export default router;
+

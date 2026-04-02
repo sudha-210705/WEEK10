@@ -67,7 +67,6 @@ commonRouter.get("/check-auth", verifyToken("USER","AUTHOR","ADMIN"), (req, res)
     payload: req.user
   });
 });
-export default router;
 
 
 
