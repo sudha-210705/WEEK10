@@ -40,7 +40,7 @@ function ArticleByID() {
       setLoading(true);
 
       try {
-        const res = await axios.get(`http://localhost:4000/user-api/article/${id}`, { withCredentials: true });
+const res = await api.get(`/user-api/article/${id}`);
 
         setArticle(res.data.payload);
       } catch (err) {
@@ -103,7 +103,7 @@ function ArticleByID() {
     //add artcileId
     commentObj.articleId = article._id;
     console.log(commentObj);
-    let res = await axios.put("http://localhost:4000/user-api/articles", commentObj, { withCredentials: true });
+let res = await api.put("/user-api/articles", commentObj);
     if (res.status === 200) {
       toast.success(res.data.message);
       setArticle(res.data.payload);
