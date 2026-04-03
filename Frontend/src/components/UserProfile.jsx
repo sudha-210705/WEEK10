@@ -67,6 +67,8 @@ function UserProfile() {
     return <p className={loadingClass}>Loading articles...</p>;
   }
 
+  console.log(articles)
+
   return (
     <div>
       {error && <p className={errorClass}>{error}</p>}

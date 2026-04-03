@@ -5,13 +5,13 @@ import Login from "./components/Login";
 import Home from "./components/Home";
 import UserProfile from "./components/UserProfile";
 import AuthorProfile from "./components/AuthorProfile";
-import ArticleByID from "./components/ArticleById";
+import ArticleByID from "./components/ArticleByID";
 import AuthorArticles from "./components/AuthorArticles";
 import WriteArticle from "./components/WriteArticle";
 import { Toaster } from "react-hot-toast";
 import EditArticle from "./components/EditArticleForm";
 import ProtectedRoute from "./components/ProtectedRoute";
-import Unauthorized from "./components/unAuthorized";
+import Unauthorized from "./components/Unauthorized";
 import ErrorBoundary from "./components/ErrorBoundary";
 
 function App() {
